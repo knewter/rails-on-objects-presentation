@@ -40,7 +40,7 @@
 	}
 	
 	#intro h1 {
-		background: url(logo.svg) no-repeat center;
+		/* background: url(logo.svg) no-repeat center; */
 		background-size:100% auto;
 	}
 }
@@ -55,4 +55,9 @@ blockquote {
   padding: 1em;
   font-size: 2em;
   line-height: 1.2;
+}
+
+div.giant {
+  margin-top: 2em;
+  font-size: 300%;
 }
