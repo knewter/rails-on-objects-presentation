@@ -271,7 +271,7 @@ end
     <ul>
       <li class='delayed'>Add a StudentTransfer ActiveRecord model</li>
       <li class='delayed'>Validation in the model</li>
-      <li class='delayed'>Use an after_create to kick off the CreditManager calls</li>
+      <li class='delayed'>Use an ActiveRecord::Observer to kick off the CreditManager calls</li>
     </ul>
   </section>
 
@@ -282,6 +282,7 @@ end
       <li class='delayed'>Really?  Database-backed model for that?</li>
       <li class='delayed'>Callbacks make it hard to see application logic, and easy to break it</li>
       <li class='delayed'>Someone will start reporting on 'the ledger' by reading this table in the database, rather than the ledger.  Trust me...</li>
+      <li class='delayed'>ActiveRecord::Observer's gone in Rails 4 because it makes such a mess of codebases</li>
     </ul>
   </section>
 
